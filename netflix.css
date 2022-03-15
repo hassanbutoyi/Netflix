@@ -397,7 +397,7 @@ nav button{
 	border-radius: 5px;
 	background: #E30813;
 	float: right;
-	width: 30%;
+	width: 38%;
 	border: none;
 	font-size: 25px;
 	color: #ffffff;
@@ -802,7 +802,7 @@ iframe{
 	position: absolute;
 	top: 3549px;
 	left: 287px;
-	display: none;
+	
 
 }
 }
@@ -815,4 +815,24 @@ iframe{
 		width: 20%;
 		height: 40px;
 	}
+}
+@media (max-width: 360px){
+nav button{
+	height: 42px;
+	border-radius: 5px;
+	background: #E30813;
+	float: right;
+	width: 38%;
+	border: none;
+	font-size: 25px;
+	color: #ffffff;
+	cursor: pointer;
+}
+.get i{
+	position: absolute;
+	left:248px;
+	top: 463px;
+	font-size: 25px;
+	color: white;
+}
 }
